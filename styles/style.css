@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');       
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,9 +9,195 @@
 }
 
 /* shared styles */
+:root{
+    --primary-color: white;
+    --secondary-color: rgba(255, 255, 255, 0.5);
+    --optional-color: rgb(230, 83, 60);
+}
 
 body{
-    color: antiquewhite;
     background: black;
     font-family: "Inter", sans-serif;
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    background: var(--optional-color); 
+    border-radius: 42px;
+    padding: 16px 40px;
+}
+
+/* header styles */
+.banner-container{
+    width: 100%;
+    background-image:linear-gradient(180.00deg, rgba(17, 17, 17, 0.174), rgb(23, 23, 23), rgb(23, 23, 23), rgb(23, 23, 23), transparent);
+}
+
+.navbar-container{
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.logo{
+    color: var(--optional-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.navbar-content{
+    border: 1px solid rgba(255, 255, 255, 0.156) ;
+    border-radius: 39px;
+}
+
+.navbar-content ul{
+    display: flex;
+    gap: 47px;
+    margin: 12px 24px 12px 4px;
+}
+
+.navbar-content li{
+    list-style: none;
+}
+
+.navbar-content a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.navbar-content a.home{
+    background: var(--optional-color); 
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.navbar-container>i{
+    color: var(--primary-color);
+    display: none;
+}
+
+.banner-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text h3{
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.shape{
+    font-style: italic;
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+}
+
+.banner-text p{
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.buttons{
+    margin-top: 28px;
+}
+
+.btn-secondary{
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-left: 14px;
+}
+
+.image-content{
+    margin-right: 24px;
+    position: relative;
+}
+
+.three-fifty{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    top: 72%;
+    right: 71%;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--optional-color);
+}
+
+.three-fifty h4{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.three-fifty p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.five-hundred{
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+}
+
+.five-hundred h4{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.five-hundred p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin-top: 5px;
 }

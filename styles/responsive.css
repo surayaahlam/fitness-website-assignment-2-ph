@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px) {
+    /* header styles */
+    .navbar-container{
+        width: 90%;
+    }
+    .navbar-content{
+        display: none;
+    }
+
+    .navbar-container>i{
+        display: block;
+    }
+
+    .banner-content{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .image-content{
+        margin-left: 50px;
+        margin-top: 48px;
+    }
+
+    .three-fifty{
+        width: 170px;
+        height: 80px;
+        top: 45%;
+        right: 60%;
+    }
+
+    .five-hundred{
+        width: 170px;
+        height: 90px;
+        top: 10%;
+        left: 55%;
+    }
+    
+}
