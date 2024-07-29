@@ -47,7 +47,7 @@
     }
     
 
-    /* Run an Extra Mile Easily section styles */
+    /* run an extra mile easily section styles */
     .run-container{
         width: 90%;
         flex-direction: column;
@@ -66,4 +66,20 @@
         object-fit: cover;
     }
 
+
+    /* bmi calculator section styles */
+    .bmi-calculator-content{
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 42px;
+    }
+
+    .calculator-content{
+        width: 100%;
+    }
+
+    .bmi-text-content, .bmi-calculator-container{
+        margin-top: 50px;
+    }
 }
