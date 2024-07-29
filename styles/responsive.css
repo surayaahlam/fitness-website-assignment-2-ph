@@ -82,4 +82,17 @@
     .bmi-text-content, .bmi-calculator-container{
         margin-top: 50px;
     }
+
+
+    /* meet our team section styles */
+    .team-container{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .team-image-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
 }

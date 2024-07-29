@@ -304,19 +304,18 @@ body{
 
 .bmi-text-content{
     margin-top: 88px;
+    text-align: center;
 }
 
 .bmi-text-content h2{
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
 }
 
 .bmi-text-content p{
     color: var(--secondary-color);
     font-size: 0.875rem;
     font-weight: 400;
-    text-align: center;
     margin-top: 14px;
 }
 
@@ -396,3 +395,70 @@ body{
 .calculator-content form>input::placeholder{
     color: var(--secondary-color);
 }
+
+
+/* meet our team section styles */
+.team-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.team-text-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.team-text-content p{
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.team-image-container{
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 58px;
+    padding: 20px;
+}
+
+.team-image-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-image{
+    position: relative;
+}
+
+.team-image img{
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.team-image-text{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.team-image-text h5{
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.team-image-text p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
