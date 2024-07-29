@@ -36,7 +36,7 @@
     }
 
 
-    /* change your habits styles */
+    /* change your habits section styles */
     .habits-container{
         width: 90%;
         margin-top: 0;
@@ -46,4 +46,24 @@
         grid-template-columns: repeat(1, 1fr);
     }
     
+
+    /* Run an Extra Mile Easily section styles */
+    .run-container{
+        width: 90%;
+        flex-direction: column;
+        gap: 31px;
+        padding: 40px;
+    }
+
+    .run-text-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .run-container img{
+        width: 95%;
+        height: 260px;
+        object-fit: cover;
+    }
+
 }

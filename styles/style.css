@@ -11,7 +11,7 @@
 /* shared styles */
 :root{
     --primary-color: white;
-    --secondary-color: rgba(255, 255, 255, 0.5);
+    --secondary-color: rgba(255, 255, 255, 0.4);
     --optional-color: rgb(230, 83, 60);
 }
 
@@ -28,6 +28,8 @@ body{
     background: var(--optional-color); 
     border-radius: 42px;
     padding: 16px 40px;
+    border: none;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -204,7 +206,7 @@ body{
 }
 
 
-/* change your habits styles */
+/* change your habits section styles */
 .habits-container{
     width: 80%;
     margin: 0 auto;
@@ -256,4 +258,39 @@ body{
     font-weight: 400;
     text-align: center;
     margin-top: 6px;
+}
+
+
+/* Run an Extra Mile Easily section styles */
+.run-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 30px 32px 29px 54px;
+}
+
+.run-text-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-text-content p{
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.run-container img{
+    width: 366px;
+    height: 330px;
+    object-fit: none;
+    object-position: 67% 34%;
+    border-radius: 18px;
 }
