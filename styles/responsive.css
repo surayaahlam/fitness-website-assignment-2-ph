@@ -34,5 +34,16 @@
         top: 10%;
         left: 55%;
     }
+
+
+    /* change your habits styles */
+    .habits-container{
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .habits-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }

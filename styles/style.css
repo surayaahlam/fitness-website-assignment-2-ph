@@ -33,7 +33,7 @@ body{
 /* header styles */
 .banner-container{
     width: 100%;
-    background-image:linear-gradient(180.00deg, rgba(17, 17, 17, 0.174), rgb(23, 23, 23), rgb(23, 23, 23), rgb(23, 23, 23), transparent);
+    background-image:linear-gradient(180.00deg, rgba(17, 17, 17, 0.174), rgba(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20), transparent);
 }
 
 .navbar-container{
@@ -100,7 +100,7 @@ body{
     justify-content: center;
 }
 
-.banner-text h3{
+.banner-text h1{
     font-size: 4.875rem;
     font-weight: 900;
     line-height: 1.2;
@@ -117,6 +117,7 @@ body{
     font-size: 1rem;
     font-weight: 400;
     margin-top: 28px;
+    line-height: 1.5;
 }
 
 .buttons{
@@ -200,4 +201,59 @@ body{
     font-size: 0.8125rem;
     font-weight: 400;
     margin-top: 5px;
+}
+
+
+/* change your habits styles */
+.habits-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.habits-text-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habits-text-content p{
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.habits-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 58px;
+}
+
+.habits-image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habits-image-content img{
+    border: 7px solid rgb(26, 26, 26);
+    border-radius: 50%;
+}
+
+.habits-image-content h4{
+    font-size: 1.125rem;
+    font-weight: 600; 
+    margin-top: 30px;
+}
+
+.habits-image-content p{
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
 }
