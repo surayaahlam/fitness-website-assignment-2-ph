@@ -135,6 +135,7 @@ body{
     border-radius: 42px;
     padding: 16px 40px;
     margin-left: 14px;
+    cursor: pointer;
 }
 
 .image-content{
@@ -161,8 +162,12 @@ body{
 .circle{
     width: 40px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 50%;
     background: var(--optional-color);
+}
+
+.circle i{
+    display: none;
 }
 
 .three-fifty h4{
@@ -286,6 +291,7 @@ body{
     font-weight: 400;
     margin-top: 14px;
     margin-bottom: 34px;
+    line-height: 1.5;
 }
 
 .run-container img{
@@ -319,6 +325,7 @@ body{
     font-size: 0.875rem;
     font-weight: 400;
     margin-top: 14px;
+    line-height: 1.5;
 }
 
 .bmi-calculator-container{
@@ -345,6 +352,7 @@ body{
     font-size: 0.875rem;
     font-weight: 400;
     margin-top: 14px;
+    line-height: 1.5;
 }
 
 .bmi-chart-content table{
@@ -418,6 +426,7 @@ body{
     font-weight: 400;
     margin-top: 14px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .team-image-container{
@@ -442,7 +451,7 @@ body{
     height: 272px;
     border-radius: 18px;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .team-image-text{
@@ -457,7 +466,7 @@ body{
 }
 
 .team-image-text p{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.55);
     font-size: 0.875rem;
     font-weight: 500;
     margin-top: 5px;
@@ -488,6 +497,7 @@ body{
     font-weight: 400;
     text-align: center;
     margin-top: 36px;
+    line-height: 1.6;
 }
 
 .footer-text-container{
@@ -534,15 +544,3 @@ body{
     font-weight: 400;
 }
 
-
-
-/* .navbar-content li{
-    list-style: none;
-}
-
-.navbar-content a{
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 1.125rem;
-    font-weight: 400;
-} */

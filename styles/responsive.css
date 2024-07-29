@@ -16,23 +16,42 @@
         width: 90%;
     }
 
+    #club{
+        display: none;
+    }
+
+    .btn-secondary{
+        padding: 16px 30px;
+    }
+
     .image-content{
-        margin-left: 50px;
+        margin-left: 42px;
         margin-top: 48px;
     }
 
     .three-fifty{
-        width: 170px;
+        width: 173px;
         height: 80px;
         top: 45%;
         right: 60%;
     }
 
+    .circle{
+        position: relative;
+    }
+
+    .circle i{
+        display: block;
+        position: absolute;
+        right: 35%;
+        bottom: 30%;
+    }
+
     .five-hundred{
-        width: 170px;
+        width: 175px;
         height: 90px;
         top: 10%;
-        left: 55%;
+        left: 58%;
     }
 
 
@@ -72,6 +91,10 @@
         width: 90%;
     }
 
+    .bmi-text-content, .bmi-calculator-container{
+        margin-top: 50px;
+    }
+
     .bmi-calculator-content{
         width: 90%;
         flex-direction: column;
@@ -83,8 +106,12 @@
         width: 100%;
     }
 
-    .bmi-text-content, .bmi-calculator-container{
-        margin-top: 50px;
+    .calculator-content form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .calculator-content form>#activity{
+        grid-column: 1;
     }
 
 
@@ -111,5 +138,9 @@
     .footer-text-container{
         flex-direction: column;
         gap: 35px;
+    }
+
+    .footer-text-1{
+        width: 100%;
     }
 }
