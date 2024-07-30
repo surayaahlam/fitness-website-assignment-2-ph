@@ -303,6 +303,146 @@ body{
 }
 
 
+/* trainings and exercises section styles */
+.exercise-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.exercise-text-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.exercise-text-content p{
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.exercise-content{
+    margin-top: 58px;
+    height: 403px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.exercise-1{
+    background-image: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url("../images/exercise1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/span 3;
+    grid-row: 1/span 8;
+    position: relative;
+}
+
+.exercise-1 p{
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 600;
+    position: absolute;
+    top: 85%;
+    right: 62%;
+}
+
+.exercise-2{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url("../images/exercise2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 4/span 8;
+    grid-row: 1/span 8;
+    position: relative;
+}
+
+.exercise-2 p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 85%;
+    right: 87%;
+}
+
+.exercise-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/exercise3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 12/span 5;
+    grid-row: 1/span 8;
+    position: relative;
+}
+
+.exercise-3 p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    top: 85%;
+    right: 80%;
+}
+
+.exercise-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/exercise4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/span 7;
+    grid-row: 9/span 8;
+    position: relative;
+}
+
+.exercise-4 p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 80%;
+    left: 70%;
+}
+
+.exercise-5{
+    background-image: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url("../images/exercise5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 8/span 3;
+    grid-row: 9/span 8;
+    position: relative;
+}
+
+.exercise-5 p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    top: 85%;
+    right: 65%;
+}
+
+.exercise-6{
+    background-image: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url("../images/exercise6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 11/span 6;
+    grid-row: 9/span 8;
+    position: relative;
+}
+
+.exercise-6 p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    top: 85%;
+    right: 72%;
+}
+
+
 /* bmi calculator section styles */
 .bmi-container{
     width: 100%;
@@ -329,7 +469,7 @@ body{
 }
 
 .bmi-calculator-container{
-    margin-top: 88px;
+    margin-top: 58px;
     background-color: rgb(34, 34, 34);
     padding: 50px 0;
 }
