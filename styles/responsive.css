@@ -129,6 +129,19 @@
         display: none;
     }
 
+    
+    /* join fitness select your membership section styles */
+    .membership-container{
+        width: 90%;
+    }
+
+    .membership-card-container{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
 
     /* footer styles */
     .footer-content{
