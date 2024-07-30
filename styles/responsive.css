@@ -80,7 +80,7 @@
     }
 
     .run-container img{
-        width: 95%;
+        width: 100%;
         height: 260px;
         object-fit: cover;
     }
@@ -136,6 +136,10 @@
 
 
     /* bmi calculator section styles */
+    .bmi-container{
+        margin-top: 88px;
+    }
+
     .bmi-text-content{
         width: 90%;
     }
@@ -167,15 +171,35 @@
     /* meet our team section styles */
     .team-container{
         width: 90%;
-        margin-top: 50px;
+        margin-top: 88px;
     }
 
     .team-image-content{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .team-image-content .team-image:first-child{
+    /* .team-image-content .team-image:first-child{
         display: none;
+    } */
+
+    .team-1, .team-4{
+        display: none;
+    }
+
+    .team-2{
+        order: 1;
+    }
+
+    .team-3{
+        order: 3;
+    }
+
+    .team-5{
+        order: 2;
+    }
+
+    .team-6{
+        order: 4;
     }
 
 
@@ -248,7 +272,7 @@
     .exercise-container{
         width: 90%;
     }
-    
+
 
     /* bmi calculator section styles */
     .bmi-text-content{
