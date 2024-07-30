@@ -206,3 +206,75 @@
         width: 100%;
     }
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 993px){
+    /* header styles */
+    .navbar-container{
+        width: 90%;
+    }
+
+    .banner-content{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        gap: 100px;
+    }
+
+
+    /* change your habits section styles */
+    .habits-container{
+        width: 90%;
+    }
+
+    .habits-image-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* run an extra mile easily section styles */
+    .run-container{
+        width: 90%;
+        gap: 10px;
+    }
+
+    .run-container img{
+        width: 300px;
+        height: 360px;
+    }
+
+
+    /* trainings and exercises section styles */
+    .exercise-container{
+        width: 90%;
+    }
+    
+
+    /* bmi calculator section styles */
+    .bmi-text-content{
+        width: 90%;
+    }
+
+    .bmi-calculator-content{
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 42px;
+    }
+
+    
+    /* footer styles */
+    .footer-content{
+        width: 90%;
+    }
+
+    .footer-text-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .footer-text-1{
+        grid-column: 1/ -1;
+    }
+}
