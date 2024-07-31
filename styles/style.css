@@ -546,6 +546,10 @@ body{
     color: var(--secondary-color);
 }
 
+.calculator-content form>select{
+    border-right: 18px solid transparent;
+}
+
 
 /* meet our team section styles */
 .team-container{
