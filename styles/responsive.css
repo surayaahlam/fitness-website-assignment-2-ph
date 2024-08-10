@@ -141,7 +141,7 @@
     }
 
     .bmi-text-content{
-        width: 90%;
+        width: 85%;
     }
 
     .bmi-text-content, .bmi-calculator-container{
@@ -149,7 +149,7 @@
     }
 
     .bmi-calculator-content{
-        width: 90%;
+        width: 85%;
         flex-direction: column;
         align-items: flex-start;
         gap: 42px;
@@ -157,10 +157,13 @@
 
     .calculator-content{
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .calculator-content form{
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
     }
 
     .calculator-content form>#activity{

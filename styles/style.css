@@ -40,7 +40,7 @@ body{
 
 .navbar-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto ;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body{
 
 .banner-content{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -216,7 +216,7 @@ body{
 /* change your habits section styles */
 .habits-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -272,7 +272,7 @@ body{
 /* run an extra mile easily section styles */
 .run-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 18px;
@@ -298,6 +298,11 @@ body{
     line-height: 1.5;
 }
 
+.run-text-content button{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 .run-container img{
     width: 400px;
     height: 330px;
@@ -310,7 +315,7 @@ body{
 /* trainings and exercises section styles */
 .exercise-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: auto;
     margin-top: 100px;
 }
@@ -455,7 +460,7 @@ body{
 
 .bmi-text-content{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 88px;
     text-align: center;
@@ -482,7 +487,7 @@ body{
 
 .bmi-calculator-content{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -504,12 +509,12 @@ body{
 
 .bmi-chart-content table{
     border-collapse: collapse;
-    margin-top: 52px;
+    margin-top: 45px;
 }
 
 .bmi-chart-content th{
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: 1.275rem;
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 13px 27px 13px 20px;
@@ -518,7 +523,8 @@ body{
 
 .bmi-chart-content td{
     color: var(--secondary-color);
-    font-size: 0.875rem;
+    /* font-size: 0.875rem; */
+    font-size: 1rem;
     font-weight: 400;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 13px 27px 13px 20px;
@@ -557,11 +563,16 @@ body{
     border-right: 18px solid transparent;
 }
 
+.calculator-content button{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 
 /* meet our team section styles */
 .team-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 88px;
 }
@@ -628,7 +639,7 @@ body{
 /* join fitness select your membership section styles */
 .membership-container{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 88px;
 }
@@ -716,7 +727,7 @@ body{
 
 .footer-content{
     width: 80%;
-    max-width: 1967px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
