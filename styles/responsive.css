@@ -286,6 +286,12 @@
         gap: 42px;
     }
 
+
+    /* join fitness select your membership section styles */
+    .membership-card-container{
+        gap: 15px;
+    }
+
     
     /* footer styles */
     .footer-content{
